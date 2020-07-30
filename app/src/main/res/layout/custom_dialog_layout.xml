@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialog"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:text="@string/dialog"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/btn_call"
+            android:background="@color/AddContact"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/TextButton"
+            android:text="@string/btn_call"/>
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/btn_send_message"
+            android:background="@color/AddContact"
+            android:textColor="@color/TextButton"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_SendMessage"/>
+    </LinearLayout>
+
+</LinearLayout>

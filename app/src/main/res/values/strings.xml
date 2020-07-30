@@ -1,10 +1,13 @@
 <resources>
     <string name="app_name">ContactAplication</string>
     <string name="Gender">Gender</string>
-    <string name="Add_Contact">AddContact</string>
+    <string name="Add_Contact">Add Contact</string>
     <string name="rd_female">Female</string>
     <string name="rd_male">Male</string>
     <string name="number">Number</string>
     <string name="name">Name</string>
     <string name="title">Contact</string>
+    <string name="dialog">Do you want to Call or Send Messages ?</string>
+    <string name="btn_call">Call</string>
+    <string name="btn_SendMessage">Send Message</string>
 </resources>

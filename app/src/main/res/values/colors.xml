@@ -6,4 +6,6 @@
     <color name="AddContact">#96bb7c</color>
     <color name="TextButton">#f5f1da</color>
     <color name="background">#e3dfc8</color>
+    <color name="dialog">#e3dfc8</color>
+
 </resources>

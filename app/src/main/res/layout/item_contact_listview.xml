@@ -20,7 +20,6 @@
         <TextView
             android:textStyle="bold"
             android:id="@+id/tv_name"
-            android:text="Nguyễn Minh Hiếu"
             android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -30,7 +29,7 @@
             android:id="@+id/tv_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="0309434"/>
+            />
 
 
     </LinearLayout>

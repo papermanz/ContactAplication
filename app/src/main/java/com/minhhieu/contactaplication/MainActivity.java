@@ -1,10 +1,12 @@
 package com.minhhieu.contactaplication;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -106,6 +108,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //đặt tên nên có dấu _ ngăn cách
+
     public void show_Dialog(final int position){
         Dialog dialog = new Dialog(MainActivity.this);
         dialog.setContentView(R.layout.custom_dialog_layout);
